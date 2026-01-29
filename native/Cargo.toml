@@ -1,0 +1,11 @@
+[package]
+name = "mls_native"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# C 언어에서 이 파일을 읽을 수 있도록 '정적 라이브러리' 형태로 만듭니다.
+crate-type = ["staticlib"]
+
+[dependencies]
+openmls = "0.5.0"
